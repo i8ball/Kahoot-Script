@@ -1,0 +1,1 @@
+javascript:(function(){var q=document.querySelectorAll('.question');q.forEach(function(q){var a=q.querySelectorAll('.answer');a.forEach(function(a){a.style.backgroundColor=a.getAttribute('data-correct')==='true'?'#0f0':'#f00'})})})();
